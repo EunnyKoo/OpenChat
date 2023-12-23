@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Chatting1 from './components/Chatting1';
 import Chatting2 from './components/Chatting2';
 import Chatting3 from './components/Chatting3';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       <main>
         <Routes>
           <Route path="/christmas" element={< Chatting2 />}/>
-          <Route path="/SummerVacay" element={< Chatting3 />}/>
+          <Route path="/wish" element={< Chatting3 />}/>
         </Routes>
       </main>
+      <Footer />
     </BrowserRouter>
     </>
   );

@@ -1,5 +1,6 @@
 body {
   font-family: 'Lobster', sans-serif;
+  background-color: antiquewhite;
 }
 .section-header {
   
@@ -23,7 +24,7 @@ body {
 
 .chat-container {
   width: 60%;
-  min-height: 800px;
+  min-height: 600px;
   background-color: cornflowerblue;
   padding: 10px 15px 0;
   position: relative;

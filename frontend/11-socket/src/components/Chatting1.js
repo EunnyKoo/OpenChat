@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logo from "../styles/logo.png";
-import christmas from "../styles/christmas.png";
 import React from "react";
 
 export default function Chatting1() {
@@ -14,22 +13,15 @@ export default function Chatting1() {
           style={{ width: "100px", height: "auto" }}
         />
         <nav>
-          <div>
+          <div className="chatRoom">
             <Link to="/christmas">Christmas Chat🎁</Link>
           </div>
-          <div>
-            <Link to="/SummerVacay">Wish to Santa🎇</Link>
+          <div className="wishRoom">
+            <Link to="/wish">Wish to Santa🎇</Link>
           </div>
         </nav>
       </header>
       <div className="spacer"></div>
-      <div className="christmas">
-        <img
-          src={christmas}
-          alt="크리스마스"
-          style={{ width: "30%", height: "30%" }}
-        />
-      </div>
     </>
   );
 }
