@@ -8,16 +8,16 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <Chatting1 />
-      <main>
-        <Routes>
-          <Route path="/christmas" element={< Chatting2 />}/>
-          <Route path="/wish" element={< Chatting3 />}/>
-        </Routes>
-      </main>
-      <Footer />
-    </BrowserRouter>
+      <BrowserRouter>
+        <Chatting1 />
+        <main>
+          <Routes>
+            <Route path="/christmas" element={<Chatting2 />} />
+            <Route path="/wish" element={<Chatting3 />} />
+          </Routes>
+        </main>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

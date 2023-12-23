@@ -1,0 +1,8 @@
+.settings-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px; /* 조절된 패딩 값 */
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* 조절된 그림자 값 */
+  }
