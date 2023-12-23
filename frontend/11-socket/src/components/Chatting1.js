@@ -1,13 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../styles/logo.png";
+import christmas from "../styles/christmas.png";
 import React from "react";
-import {
-  Navbar,
-  MobileNav,
-  Typography,
-  Button,
-  IconButton,
-} from "@material-tailwind/react";
 
 export default function Chatting1() {
   return (
@@ -21,13 +15,21 @@ export default function Chatting1() {
         />
         <nav>
           <div>
-            <Link to="/christmas">Christmas Room🎁</Link>
+            <Link to="/christmas">Christmas Chat🎁</Link>
           </div>
           <div>
-            <Link to="/SummerVacay">Summer Vacation Room🐳</Link>
+            <Link to="/SummerVacay">Wish to Santa🎇</Link>
           </div>
         </nav>
       </header>
+      <div className="spacer"></div>
+      <div className="christmas">
+        <img
+          src={christmas}
+          alt="크리스마스"
+          style={{ width: "30%", height: "30%" }}
+        />
+      </div>
     </>
   );
 }

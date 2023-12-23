@@ -11,9 +11,8 @@ function App() {
       <Chatting1 />
       <main>
         <Routes>
-          <Route path="/christmas" element={<Chatting2 />}/>
+          <Route path="/christmas" element={< Chatting2 />}/>
           <Route path="/SummerVacay" element={< Chatting3 />}/>
-
         </Routes>
       </main>
     </BrowserRouter>

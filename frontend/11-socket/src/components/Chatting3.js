@@ -84,13 +84,7 @@ export default function Chatting2() {
   return (
     <>
       <div className="section-header2">
-        <h3>여름 방학 오픈 채팅</h3>
-        <h5>기본적인 행위 금지 사항을 확인해주세요!</h5>
-        <ul>
-          <li>🐳 반말 (상호 존댓말을 원칙으로 하여 서로를 존중해요)</li>
-          <li>🐠 불필요한 개인정보 요구 (성별, 나이, 연락처 등의 개인정보를 보호하세요)</li>
-          <li>🪼 음단패설, 비속어, 정치적 발언 및 토론, 종교 전도 활동, 모욕적인 발언은 절대 금지!</li>
-        </ul>
+        <h3>새해 결심을 외쳐보세요!</h3>
       </div>
 
       {userId ? (
@@ -121,6 +115,7 @@ export default function Chatting2() {
               type="text"
               value={userIdInput}
               onChange={(e) => setUserIdInput(e.target.value)}
+              placeholder="닉네임을 입력해주세요!"
             />
             <button onClick={entryChat}>입장</button>
           </div>

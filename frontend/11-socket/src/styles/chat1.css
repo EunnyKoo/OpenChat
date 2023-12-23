@@ -66,9 +66,11 @@ body {
     position: relative;
     text-align: right;
     border-radius: 5px;
-    padding: 8px;
+    padding: 5px;
     background-color: rgb(255, 255, 170);
     margin-bottom: 10px; 
+    width: 500px;
+    margin-left: auto; 
   }
   
   .my-chat:after {
@@ -93,6 +95,8 @@ body {
     padding: 8px 10px;
     background-color: white;
     margin-bottom: 10px; 
+    width: 500px;
+    margin-right: auto;
   }
 
   .other-chat:after {
@@ -206,5 +210,9 @@ body {
       display: none;
       }
     
-    
+      .user-id {
+        font-weight: bold; /* Make the user ID bold or apply other styles as needed */
+        color: #333; /* Set the color for the user ID */
+        margin-bottom: 4px; /* Add spacing between user ID and chat content */
+      }
  

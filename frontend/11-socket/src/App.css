@@ -29,3 +29,12 @@ main {
   margin-left: 25px;
 }
 
+.christmas {
+  text-align: center;
+  font-size: larger;
+}
+
+.spacer {
+  height: calc(var(--height-header) + 100px); 
+}
+

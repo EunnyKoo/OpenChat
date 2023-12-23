@@ -45,13 +45,13 @@ export default function Chatting2() {
   const addChatList = useCallback(
     (res) => {
       const type = res.userId === userId ? "my" : "other";
-      const content = `${res.dm ? '(속닥속닥) ' : ''} ${res.userId}: ${res.msg}`;
-      const newChatList = [...chatList, { type: type, content: content }];
+      const content = `${res.dm ? '(속닥속닥) ' : ''}  ${res.msg}`;
+      const content2 = res.userId;
+      const newChatList = [...chatList, { type: type, content: content, content2: content2 }];
       setChatList(newChatList);
     },
     [userId, chatList]
   );
-
   useEffect(() => {
     socket.on("chat", addChatList);
     return () => socket.off("chat", addChatList);
@@ -121,6 +121,7 @@ export default function Chatting2() {
               type="text"
               value={userIdInput}
               onChange={(e) => setUserIdInput(e.target.value)}
+              placeholder="닉네임을 입력해주세요!"
             />
             <button onClick={entryChat}>입장</button>
           </div>
