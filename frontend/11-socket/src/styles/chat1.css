@@ -22,7 +22,7 @@ body {
 }
 
 .chat-container {
-  width: 1000px;
+  width: 60%;
   min-height: 800px;
   background-color: cornflowerblue;
   padding: 10px 15px 0;
@@ -115,7 +115,7 @@ body {
   }
   
   .input-container {
-    width: 1000px;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
