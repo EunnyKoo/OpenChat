@@ -126,7 +126,7 @@ export default function Chatting2() {
             onChange={(e) => setUserIdInput(e.target.value)}
             onKeyPress={(e) => {
               if (e.key === 'Enter') {
-                {entryChat}
+                entryChat();
               }
             }}
             placeholder="닉네임을 입력해주세요!"
