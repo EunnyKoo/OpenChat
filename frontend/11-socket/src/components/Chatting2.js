@@ -120,12 +120,17 @@ export default function Chatting2() {
       ) : (
         <>
           <div className="input-container">
-            <input
-              type="text"
-              value={userIdInput}
-              onChange={(e) => setUserIdInput(e.target.value)}
-              placeholder="닉네임을 입력해주세요!"
-            />
+          <input
+            type="text"
+            value={userIdInput}
+            onChange={(e) => setUserIdInput(e.target.value)}
+            onKeyPress={(e) => {
+              if (e.key === 'Enter') {
+                {entryChat}
+              }
+            }}
+            placeholder="닉네임을 입력해주세요!"
+          />
             <button onClick={entryChat}>입장</button>
           </div>
         </>
