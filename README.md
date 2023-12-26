@@ -35,15 +35,19 @@
 
 # 🖥️ 화면 구성 및 주요 기능
 ![ezgif com-gif-to-mp4-converter](https://github.com/EunnyKoo/OpenChat/assets/139302489/988fcefd-582e-494b-a0a4-c8f5b06c333b)
+<br />
 눈 내리고 배경화면 색 설정할 수 있는 배경화면
 
 https://github.com/EunnyKoo/OpenChat/assets/139302489/ece752a1-fc81-4e02-8bf1-3c659c31ef1a
+<br />
 DM 기능으로 지정한 사용자에게만 메세지가 전송 가능
 
 https://github.com/EunnyKoo/OpenChat/assets/139302489/4612aead-2015-4658-810f-84b0fa079dfc
+<br />
 사용자가 채팅방을 종료할 경우 다른 사용자들에게 노티스가 가능 기능
 
 https://github.com/EunnyKoo/OpenChat/assets/139302489/9dd1e7db-549a-4ba6-b661-f614c7052f3e
+<br />
 라우팅으로 다른 페이지 이동 가능
 
 
