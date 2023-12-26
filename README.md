@@ -32,6 +32,7 @@
 <img width="159" alt="디렉토리 설정" src="https://github.com/EunnyKoo/OpenChat/assets/139302489/c7ff7b0a-9574-4432-a282-8bf775e483c8">
 
 <br />
+<br />
 
 # 🖥️ 화면 구성 및 주요 기능
 ![ezgif com-gif-to-mp4-converter](https://github.com/EunnyKoo/OpenChat/assets/139302489/988fcefd-582e-494b-a0a4-c8f5b06c333b)
